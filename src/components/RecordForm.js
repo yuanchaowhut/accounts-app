@@ -50,7 +50,7 @@ export default class RecordForm extends Component {
 
         return (
             <form className="form-inline mb-3" onSubmit={this.handleSubmit}>
-                <div className="form-group">
+                <div className="form-group mr-1">
                     <input type="text" className="form-control" placeholder="Date" name="date"
                            onChange={this.handleChange} value={this.state.date}/>
                 </div>
